@@ -1,0 +1,12 @@
+[package]
+name = "ai_data_fabric"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.18", features = ["extension-module"] }
+numpy = "0.18.0"
+rayon = "1.5"
